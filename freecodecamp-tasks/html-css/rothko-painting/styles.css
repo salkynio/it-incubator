@@ -17,6 +17,7 @@
     background-color: #efb762;
     margin: 20px auto;
     filter: blur(1px);
+    box-shadow: 0 0 3px 3px #efb762;
 }
 .two{
     width: 475px;
@@ -30,5 +31,5 @@
     height: 28%;
     background-color:#b20403;
     margin:auto;
-    filter: blur(3px);
+    filter: blur(2px);
 }
