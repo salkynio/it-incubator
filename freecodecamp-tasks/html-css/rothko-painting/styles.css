@@ -25,6 +25,7 @@
     background-color:#8f0401;
     margin:0 auto 20px auto;
     filter: blur(1px);
+    box-shadow: 0 0 3px 3px #8f0401;
 }
 .three{
     width: 91%;
