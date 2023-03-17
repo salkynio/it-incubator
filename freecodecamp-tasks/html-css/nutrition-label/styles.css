@@ -19,6 +19,8 @@ html{
     letter-spacing: 0.15px;}
 
   p{
+    display: flex;
+    justify-content:space-between;
     margin: 0;
   }
   .divider{
