@@ -16,12 +16,14 @@
     height: 500px;
     background-color: #efb762;
     margin: 20px auto;
+    filter: blur(1px);
 }
 .two{
     width: 475px;
     height: 200px;
     background-color:#8f0401;
     margin:0 auto 20px auto;
+    filter: blur(1px);
 }
 .three{
     width: 91%;
