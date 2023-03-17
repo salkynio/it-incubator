@@ -13,3 +13,6 @@ html{
   *{
     box-sizing:border-box;
   }
+  h1{
+    font-weight: 800;
+  }
