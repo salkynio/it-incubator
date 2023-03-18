@@ -11,3 +11,4 @@ let str='';
 let str ='hello world';  
 
 console.log(noSpace(str));
+// Salkyn has 3 family members
