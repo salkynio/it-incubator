@@ -7,10 +7,13 @@ function caseInSwitch(val) {
       break;
       case 2:
       answer = "beta";
+      break;
       case 3:
       answer = "gamma ";
+      break;
       case 4:
       answer = "delta";
+      break;
     }
   
   
