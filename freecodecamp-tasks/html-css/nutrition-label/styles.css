@@ -56,4 +56,5 @@ html{
   .calories-info span{
     font-size: 2.4em;
     font-weight: 700;
+    margin: -7px -2px;
   }
