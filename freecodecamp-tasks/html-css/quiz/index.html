@@ -25,16 +25,47 @@
 </header>
 <main>
 <form method="post" action="https://freecodecamp.org/practice-project/accessibility-quiz">
-   <section role="region" aria-labelledby="student-info">
-          <h2 id="student-info">Student Info</h2>
-          <div class="info"><label for=""></label><input type="text"></div>
-          <div class="info"><label for=""></label><input type="text"></div>
-          <div class="info"><label for=""></label><input type="text"></div>
+    <section role="region" aria-labelledby="student-info">
+        <h2 id="student-info">Student Info</h2>
+        <div class="info"><label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter yuor name"></div>
+        <div class="info"><label for="email">Email</label>
+            <input type="email" id="email" name="email"></div>
+        <div class="info"><label for="data">Data of birth </label>
+            <input type="data" id="data" name="year"></div>
+            <input type="datetime">
       </section>
-      <section role="region " aria-labelledby="html-questions"><h2 id="html-questions">Html-questions</h2></section>
+      <section role="region " aria-labelledby="html-questions"><h2 id="html-questions">Html-questions</h2>
+        <div class="question-block">
+            <p>1</p>
+            <fieldset class="question" name="question" > <legend></legend>
+                                         <ul class="answers-list">
+                                            <li><label for=""><input type="radio"></label></li>
+                                            <li><label for=""></label></li>
+                                         </ul>
+            </fieldset>
+        </div>
+        <div class="question-block">
+            <p>2</p>
+            <fieldset class="question"  name="question"><legend>
+                <legend></legend>
+                                         <ul class="answers-list">
+                                            <li><label for=""></label></li>
+                                            <li><label for=""></label></li>
+                                         </ul>
+            </legend></fieldset>
+        </div>
+    </section>
       <section role="region" aria-labelledby="css-questions"><h2 id="css-questions">Css-questions</h2></section>
+      <select name="" id="">
+        <option value=""><option>
+      </select>
+      <button type="submit">Send</button>
 </form>
                <input type="submit">
             </main>
+            <footer>
+                <address></address>
+            </footer>
 </body>
 </html>

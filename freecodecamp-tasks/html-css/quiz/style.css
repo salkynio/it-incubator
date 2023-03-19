@@ -8,11 +8,14 @@ header{
     width: 100%;
     height: 50px;
     background-color:#1b1b32;
-    display: flexbox;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
 }
 h1{
     color: #f1be32;
     font-size: min(5vw, 1.2em);
+    text-align: center;
 }
 
 nav > ul{
@@ -24,4 +27,7 @@ h1,h2{
 }
 h2{
     border-bottom: 4px solid #dfdfe2 ;
+}
+nav li{
+    text-decoration: none;
 }
